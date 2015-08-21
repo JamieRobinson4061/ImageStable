@@ -34,7 +34,7 @@ void main()
 	//Video Load     
 	CvCapture * capture = cvCreateFileCapture("C:/Users/Jamie/Documents/GitHubVisualStudio/ImageStable/ConsoleApplication1/x64/Debug/cam3.mp4"); //cvCaptureFromCAM(0); //cvCreateFileCapture("1.avi");     
 
-														   //Window     
+																																				 //Window     
 	cvNamedWindow("Origin OpticalFlow", WINDOW_NORMAL);
 	//cvNamedWindow( "RealOrigin" , WINDOW_NORMAL);  
 	//////////////////////////////////////////////////////////////////////////     
