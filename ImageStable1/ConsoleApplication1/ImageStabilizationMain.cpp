@@ -1,11 +1,10 @@
 #include <iostream>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
-
-
 #include "stdafx.h"
 #include <stdio.h>
 #include "opencv\cv.hpp"
+
 using namespace cv;
 using namespace std;
 
@@ -31,8 +30,8 @@ void main()
 	IplImage * imgB = 0;
 
 
-	//Video Load     
-	CvCapture * capture = cvCreateFileCapture("C:/Users/Jamie/Documents/GitHubVisualStudio/ImageStable/ConsoleApplication1/x64/Debug/cam3.mp4"); //cvCaptureFromCAM(0); //cvCreateFileCapture("1.avi");     
+	//Video Load, change to reflect required file  
+	CvCapture * capture = cvCreateFileCapture("C:/Users/Jamie/Documents/GitHubVisualStudio/ImageStable/ImageStable1/x64/Debug/cam1.mp4"); //cvCaptureFromCAM(0); //cvCreateFileCapture("1.avi");     
 
 																																				 //Window     
 	cvNamedWindow("Origin OpticalFlow", WINDOW_NORMAL);
